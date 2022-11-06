@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="/style.css">
+
+  
+    <link href="https://fonts.googleapis.com/css2?family=Kaushan+Script&family=Rubik&display=swap" rel="stylesheet">
+
+    <title> Treća gimnazija </title>
+    <script src="https://kit.fontawesome.com/8f0da5b046.js" crossorigin="anonymous"></script> <!------SKRIPTA KOJA UZIMA IKONE SA STRANICE FONTAWESOME-->
+</head>
+
+<!-----------------------POČETNA STRANICA------------------------->
+
+<body>
+
+    <div class="zaglavlje">
+        
+        <div class="bojanav">
+            <nav class="navbar navbar-expand-lg bg-transparent">
+                <div class="container">
+                    <a class="navbar-brand">Treća gimnazija</a>
+                    
+                    <div class="collapse navbar-collapse" id="navbarScroll">
+                        <ul class="navbar-nav m-auto my-2 my-lg-0">
+                            <li class="nav-item">
+                                <a class="nav-link" href="#onama">O nama</a>
+                            </li>
+                            <li class="nav-item ">
+                                <a class="nav-link" href="#Vještine">Vještine</a>
+                            </li>
+
+                            <li class="nav-item">
+                                <a class="nav-link" href="#projekti">Projekti</a>
+                            </li>
+
+                            <li class="nav-item">
+                                <a class="nav-link" href="#kontakt">Kontakt</a>
+                            </li>
+                        </ul>
+                        
+                    </div>
+                    
+                </div>
+            </nav>
+        </div>
+    </div>
+
+    <div id="zaglavlje">
+        <div class="container">
+            <div class="zaglavlje-tekst">
+                <h1>Dobrodošli na stranicu<span> Treće</span><br><span>Gimnazije</span>, locirane na <span>Vilsonovom
+                        šetalištu</span>
+                    u Sarajevu.</h1>
+            </div>
+        </div>
+    </div>
+
+    <!---------------O nama--------------->
+
+    <div id="onama">
+        <div class="container">
+            <div class="red">
+                <div class="omeni-red-lijevi">
+                    <br><br><br>
+                    <img src="Slike/TGS-logo-negativ.png">
+                </div>
+                <div class="omeni-red-desni">
+                    <br><br>
+                    <h1 class="podnaslov">O našoj školi</h1>
+                    <p><br>Treća gimnazija je javna ustanova i jedna je od najstarijih gimnazija u Sarajevu, gradu koji
+                        je zaslužan za njeno osnivanje. Nalazi se u Vilsonovom šetalištu, jednom od najljepših dijelova
+                        glavnog grada Bosne i Hercegovine. Nastavni plan i program koji nudi je opće-obrazovni, te po
+                        izboru učenika nastava se u 3. i 4. razredu, odvija po planu i programu za jedan od 6 smjerova
+                        (prirodni, matematičko-informatički, jezički, društveni, IT i opći smjer).<br><br>Naša škola
+                        raspolaže potrebnim kadrom za održavanje nastave za sve predmete i predviđene planove i
+                        programe, te svaki predmet predaje stručna osoba. Osim redovne nastave, u našoj školi redovno se
+                        odvija i dodatna nastava za nadarene učenike iz Matematike, Fizike, Informatike i drugih
+                        predmeta, gdje pokazujemo odlične rezultate na brojnim takmičenjima. Još jedna od prednosti naše
+                        škole je to što se nalazi na mirnoj lokaciji, okružena zelenilom, što učenicima pruža još bolje
+                        uslove za prikupljanje znanja. </p>
+
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('vještine')">Vještine koje se uče na IT smjeru
+                        </p>
+                        <p class="tab-links" onclick="opentab('iskustvo')">Redoslijed učenja vještina na IT smjeru</p>
+                        <p class="tab-links" onclick="opentab('edukacija')">Godine rada</p>
+                    </div>
+
+                    <div class="tab-contents active-tab" id="vještine">
+                        <ul>
+                            <li><span>User Interface / User Experience</span><br>Dizajniranje web stranica i Android
+                                aplikacija</li>
+                            <li><span>Programiranje</span><br>C++, Python, SQL, HTML, CSS...</li>
+                            <li><span>Projektovanje, Šeme</span><br>Arduino, Microbit...</li>
+                        </ul>
+                    </div>
+
+                    <div class="tab-contents" id="iskustvo">
+                        <ul>
+                            <br><br>
+                            <li><span>Prvi razred</span><br>C++</li>
+                            <li><span>Drugi razred</span><br>Python</li>
+                            <li><span>Treći razred</span><br>SQL, Not Only SQL (NOSQL)</li>
+                            <li><span>Četvrti razred</span><br>HTML, CSS, JavaScript</li>
+                            <li><span>Projekti</span><br>Arduino, Scratch, MicroBit</li>
+                        </ul>
+                    </div>
+
+                    <div class="tab-contents" id="edukacija">
+                        <ul>
+                            <br><br>
+                            <li><span>Osnivanje</span><br>1948</li>
+                            <li><span>Otežana nastava</span><br>Ratni period od 1992 do 1995</li>
+                            <li><span>Nastavak rada</span><br>Od 1995 do danas</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-----------------------VJEŠTINE------------------------->
+
+    <div id="Vještine">
+        <div class="container">
+            <h1 class="Podnaslov">Vještine koje ćete steći na IT smjeru</h1>
+            <div class="mojevještine">
+                <div>
+                    <i class="fa-solid fa-code"></i>
+                    <!--------POZIVANJE IKONICE SA MOJEG KORISNIČKOG RAČUNA STRANICE FONTAWESOME-------->
+                    <h2>Programiranje u raznim programskim jezicima</h2>
+                </div>
+
+                <div>
+                    <i class="fa-solid fa-robot"></i>
+                    <h2>Arduino / MicroBit projektovanje i crtanje šema u Tinkercad-u</h2>
+                    <a href="#">Povratak na glavnu stranicu</a>
+                </div>
+
+                <div>
+                    <i class="fa-brands fa-apple"></i>
+                    <h2>Dizajniranje Android aplikacija / Web stranica</h2>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!------------------PROJEKTI----------------------->
+
+    <div id="projekti">
+        <div class="container">
+            <h1 class="Podnaslov">Projekti naših učenika</h1>
+            <div class="listaprojekata">
+                <div class="projekat">
+                    <img src="slike/proj1.png">
+                    <div class="sloj">
+                        <h3>C++ program</h3>
+                        <p>Jednostavan program koji se može koristiti lokalno a i u mnogobrojnim firmama.</p>
+                        <a href="#"><i class="fa-solid fa-code"></i></a>
+                    </div>
+                </div>
+
+                <div class="projekat">
+                    <img src="slike/arduino.jpg">
+                    <div class="sloj">
+                        <h3>Arduino rover</h3>
+                        <p>Rover koji uz pomoć ultrasoničnih valova određuje svoju poziciju i kretanje.</p>
+                        <a href="#"><i class="fa-solid fa-car"></i></i></a>
+                    </div>
+                </div>
+
+                <div class="projekat">
+                    <img src="slike/microbit.jpg">
+                    <div class="sloj">
+                        <h3>Microbit robot</h3>
+                        <p>Jednostavan robot koji se kreće pomoću daljinskog upravljača.</p>
+                        <a href="#"><i class="fa-solid fa-robot"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-------------KONTAKT------------>
+
+    <div id="kontakt">
+        <div class="container">
+            <div class="red">
+                <div class="kontakt-lijevi">
+                    <h1 class="podnaslov">Kontakt</h1>
+                    <p><i class="fa-solid fa-paper-plane"></i>info@treca-gimnazija.edu.ba</p>
+                    <p><i class="fa-solid fa-phone"></i>+387 (0)33 724 500</p>
+
+                    <div class="ikonicesocijalne">
+                        <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                        <a href="#"><i class="fa-brands fa-facebook"></i></a>
+                        <a href="#"><i class="fa-brands fa-twitter"></i></a>
+                    </div>
+                    <a href="Slike/Treća gimnazija.docx" download class="dgme dgme2">Preuzmite bilješke o Trećoj
+                        gimnaziji</a>
+                </div>
+
+                <div class="kontakt-desni">
+                    <form>
+                        <input type="text" name="Ime" placeholder="Ime i prezime" required>
+                        <input type="email" name="Email" placeholder="Email" required>
+                        <input type="date" name="date" placeholder="Datum rođenja" required>
+                        <input type="password" name="Šifra" minlength="2" maxlength="6" placeholder="Šifra"
+                            name="Šifra" required>
+                        <textarea name="Message" rows="6" placeholder="Komentar"></textarea>
+                        <button type="submit" class="dgme dgme2">Potvrdi</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+        <div class="prof">
+            <p>Profesor Softver Inžinjeringa: Admir Demir <i class="fa-sharp fa-solid fa-person-chalkboard"></i> </p>
+        </div>
+    </div>
+
+    <!-----------------------SKRIPTA KOJA SAKRIVA/OTKRIVA AKTIVNE TABOVE U DIJELU "O MENI"------------------------->
+
+    <script>
+        var tablinks = document.getElementsByClassName("tab-links");
+        var tabcontents = document.getElementsByClassName("tab-contents");
+        function opentab(tabname) {
+            for (tablink of tablinks) {
+                tablink.classList.remove("active-link");
+            }
+            for (tabcontent of tabcontents) {
+                tabcontent.classList.remove("active-tab");
+            }
+            event.currentTarget.classList.add("active-link");
+            document.getElementById(tabname).classList.add("active-tab");
+        }
+    </script>
+</body>
+
+</html>
